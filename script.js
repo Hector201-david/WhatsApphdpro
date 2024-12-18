@@ -1,6 +1,6 @@
 document.getElementById('sendSmsButton').addEventListener('click', function() {
-    var phoneNumber = 'NUMERO_DE_DESTINO'; // Formato: +1234567890
-    var message = 'Este es un mensaje de prueba enviado automáticamente.';
+    var phoneNumber = '+5355639119'; // Formato: +1234567890
+    var message = 'Agrégame a WhatsApp;
 
     var xhr = new XMLHttpRequest();
     xhr.open('POST', 'send_sms.php', true);
